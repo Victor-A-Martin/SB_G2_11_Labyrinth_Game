@@ -3,6 +3,16 @@
 	"EngineAssociation": "5.4",
 	"Category": "",
 	"Description": "",
+	"Modules": [
+		{
+			"Name": "Werewolves_Labirynth",
+			"Type": "Runtime",
+			"LoadingPhase": "Default",
+			"AdditionalDependencies": [
+				"Engine"
+			]
+		}
+	],
 	"Plugins": [
 		{
 			"Name": "ModelingToolsEditorMode",
@@ -18,6 +28,10 @@
 		{
 			"Name": "CascadeToNiagaraConverter",
 			"Enabled": true
+		},
+		{
+			"Name": "Fab",
+			"Enabled": false
 		}
 	]
 }
